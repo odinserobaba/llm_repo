@@ -1,0 +1,1 @@
+https://github.com/pueraeternis/agentic-rag-workshop
