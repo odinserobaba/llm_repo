@@ -280,7 +280,9 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_overlap=50,
 )
 chunks = splitter.split_text(text)
+# Схема: текст -> чанки
 ```
+**Почему важно:** без чанкинга в контекст не поместится нужная часть.
 
 ### Пример 2: Эмбеддинги + база
 ```python
@@ -291,7 +293,9 @@ db = Chroma.from_texts(
     texts=chunks,
     embedding=emb,
 )
+# Схема: чанки -> векторы -> база
 ```
+**Почему важно:** без эмбеддингов поиск «по смыслу» невозможен.
 
 ### Пример 3: Ретривер → поиск
 ```python
@@ -299,14 +303,18 @@ retriever = db.as_retriever(k=3)
 docs = retriever.get_relevant_documents("что про экономику?")
 for d in docs:
     print(d.page_content[:120])
+# Схема: вопрос -> ретривер -> документы
 ```
+**Почему важно:** ретривер — это «поисковик» по вашей базе.
 
 ### Пример 4: RAG‑промпт
 ```python
 context = "\n\n".join([d.page_content for d in docs])
 prompt = f"Контекст:\n{context}\n\nВопрос: что про экономику?"
 answer = llm.invoke(prompt)
+# Схема: контекст + вопрос -> ответ
 ```
+**Почему важно:** LLM отвечает по подложенному контексту, а не «из памяти».
 
 ### Пример 5: Гибридный поиск (BM25 + Вектор)
 ```python
@@ -316,7 +324,9 @@ hybrid = EnsembleRetriever(
     retrievers=[bm25, vec],
     weights=[0.5, 0.5],
 )
+# Схема: BM25 + вектор -> общий результат
 ```
+**Почему важно:** точные термины + смысл дают более стабильную выдачу.
 
 ### Пример 6: ParentDocumentRetriever
 ```python
@@ -326,7 +336,44 @@ parent = ParentDocumentRetriever(
     child_splitter=RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=20),
     parent_splitter=RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100),
 )
+# Схема: малые чанки -> родитель -> ответ
 ```
+**Почему важно:** возвращает более «полный» контекст и уменьшает обрывки.
+
+### Пример 7: Кэш эмбеддингов
+```python
+store = LocalFileStore("./cache/embeddings")
+cached = CacheBackedEmbeddings.from_bytes_store(
+    embeddings=emb,
+    store=store,
+    namespace="rag_demo",
+)
+# Схема: эмбеддинги -> кэш -> быстрее повтор
+```
+**Почему важно:** экономит время и деньги при повторных запусках.
+
+### Пример 8: persist_dir (сохранение базы)
+```python
+db = Chroma(
+    collection_name="rag_demo",
+    embedding_function=emb,
+    persist_directory="./db/chroma_rag",
+)
+db.persist()
+# Схема: база -> диск -> повторный запуск
+```
+**Почему важно:** не нужно пересоздавать базу при каждом запуске.
+
+### Пример 9: Фильтрация по метаданным
+```python
+docs = db.similarity_search(
+    "рынок нефти",
+    k=3,
+    filter={"label": "economics"},
+)
+# Схема: запрос + фильтр -> релевантнее
+```
+**Почему важно:** повышает точность, когда известна тема/категория.
 
 Микро‑проверка: какой блок ты запустишь первым — чанкинг или эмбеддинги?  
 Ответ: сначала чанкинг, потом эмбеддинги.
