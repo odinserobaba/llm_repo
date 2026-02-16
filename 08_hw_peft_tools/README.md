@@ -14,7 +14,7 @@
 ## Выбранный трек: C — Инструктивный помощник
 
 - **Датасет:** [mlabonne/FineTome-100k](https://huggingface.co/datasets/mlabonne/FineTome-100k) — 100k примеров диалогов формата «вопрос → развёрнутый ответ».
-- **Fine-tuning:** Mistral-7B 4-bit + LoRA.
+- **Модели:** TinyLlama-1.1B (быстрый показ ~1 ч, публичная) или Mistral-7B (качественнее ~5 ч), 4-bit + LoRA.
 - **Tools:** `text_formatter`, `template_generator`, `content_validator`.
 
 ---
