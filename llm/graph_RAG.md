@@ -20,6 +20,12 @@
 
 ---
 
+## How‑to по RAG
+
+- [[howto_build_rag_service|How‑to: собрать RAG‑сервис от нуля до пайплайна]]
+
+---
+
 ## Поиск, индексы, гибридные подходы
 
 - [[04_module_rag/README#*|Типы retrievers, индексы и BM25/Vector/HNSW]]  <!-- якорь можешь донастроить в Obsidian -->

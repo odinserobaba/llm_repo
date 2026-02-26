@@ -11,10 +11,14 @@
             "id": "4205ca1357b81ccf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "llm/concepts_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "concepts_index"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#понятия",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "llm/concepts_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для concepts_index"
             }
           },
           {
@@ -108,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "llm/concepts_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из concepts_index"
             }
           },
           {
@@ -150,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "llm/concepts_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура concepts_index"
             }
           }
         ]
@@ -179,10 +187,20 @@
   },
   "active": "4205ca1357b81ccf",
   "lastOpenFiles": [
+    "llm/howto_build_ie_pipeline.md",
+    "llm/howto_finetune_lora_peft.md",
+    "llm/howto_monitor_llm_langfuse.md",
+    "llm/howto_design_prompts_for_llm.md",
+    "llm/howto_deploy_llm_api.md",
+    "llm/00_Home.md",
+    "llm/howto_build_rag_service.md",
+    "llm/graph_Agents_LangGraph.md",
+    "llm/graph_IE.md",
+    "llm/concepts_index.md",
+    "llm/12_hw_rag_langfuse/README.md",
+    "tests.md",
     "llm/graph_Prod_Observability.md",
     "llm/graph_Finetuning_PEFT.md",
-    "llm/graph_IE.md",
-    "llm/graph_Agents_LangGraph.md",
     "llm/graph_Prompting.md",
     "llm/graph_RAG.md",
     "10_module_cognitive_systems/03_langgraph/01_langgraph_state_machines.ipynb",
@@ -195,25 +213,15 @@
     "12_hw_rag_langfuse/rag_news_langfuse.ipynb",
     "12_hw_rag_langfuse",
     "09_module_ie/01_ner_spacy_natasha_hf.ipynb",
-    "llm/00_Home.md",
-    "llm/12_hw_rag_langfuse/README.md",
     "llm/real_rag_folder/4.md",
     "llm/real_rag_folder/3.md",
     "llm/real_rag_folder/2.md",
     "llm/real_rag_folder/1.md",
-    "tests.md",
     "llm/promt.md",
     "llm/links.md",
     "llm/learn.md",
     "llm/10_module_cognitive_systems/05_profiling_monitoring/README.md",
     "llm/10_module_cognitive_systems/04_ontologies/README.md",
-    "llm/10_module_cognitive_systems/03_langgraph/README.md",
-    "llm/10_module_cognitive_systems/02_knowledge_graphs/README.md",
-    "llm/10_module_cognitive_systems/01_rag_cognitive/README.md",
-    "llm/10_module_cognitive_systems/README.md",
-    "llm/09_module_ie/README.md",
-    "llm/09_hw_ie_extraction/РЕЗУЛЬТАТЫ_rel2_НАГЛЯДНО.md",
-    "llm/09_hw_ie_extraction/АНАЛИЗ_РЕЗУЛЬТАТОВ.md",
-    "llm/09_hw_ie_extraction/prompt_cognitive_designer.md"
+    "llm/10_module_cognitive_systems/03_langgraph/README.md"
   ]
 }

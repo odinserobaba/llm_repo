@@ -35,6 +35,13 @@
 
 ---
 
+## How‑to по прод‑части
+
+- [[howto_deploy_llm_api|How‑to: завернуть LLM в API и задеплоить]]
+- [[howto_monitor_llm_langfuse|How‑to: подключить мониторинг и Langfuse]]
+
+---
+
 ## Связи с другими хабами
 
 - [[graph_Finetuning_PEFT|Graph: Finetuning и PEFT]] — дообученные модели в проде

@@ -26,6 +26,13 @@
 
 ---
 
+## How‑to для агентов/графов
+
+- [[howto_build_rag_service|How‑to: собрать RAG‑сервис от нуля до пайплайна]]
+- [[howto_monitor_llm_langfuse|How‑to: подключить мониторинг и Langfuse]]
+
+---
+
 ## Связи с другими хабами
 
 - [[graph_RAG|Graph: RAG и поиск]] — LangGraph и агенты как «оркестратор» для RAG

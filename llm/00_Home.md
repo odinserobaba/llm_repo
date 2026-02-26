@@ -53,6 +53,17 @@
 
 ---
 
+## How‑to (пошаговые рецепты)
+
+- [[howto_build_rag_service|Собрать RAG‑сервис от нуля до пайплайна]]
+- [[howto_deploy_llm_api|Завернуть LLM в API и задеплоить]]
+- [[howto_design_prompts_for_llm|Спроектировать промпты под задачу]]
+- [[howto_monitor_llm_langfuse|Подключить мониторинг и Langfuse]]
+- [[howto_finetune_lora_peft|Дообучить LLM с LoRA/PEFT и использовать адаптеры]]
+- [[howto_build_ie_pipeline|Спроектировать IE‑пайплайн]]
+
+---
+
 ## Графы понятий (hub‑заметки)
 
 Открывай эти заметки и включай Local graph — будет видно «островки» по темам.
@@ -63,6 +74,10 @@
 - [[graph_IE|Graph: Information Extraction]]
 - [[graph_Finetuning_PEFT|Graph: Finetuning и PEFT]]
 - [[graph_Prod_Observability|Graph: Прод, мониторинг, Langfuse]]
+
+Дополнительно:
+
+- [[concepts_index|Карта понятий и примеров]] — группировка «понятие → примеры → хабы»
 
 ---
 
