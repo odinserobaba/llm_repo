@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn.md",
+                "file": "tests.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "learn"
+              "title": "tests"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learn.md",
+                "file": "tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для learn"
+              "title": "Обратные ссылки для tests"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learn.md",
+                "file": "tests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из learn"
+              "title": "Исходящие ссылки из tests"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learn.md",
+                "file": "tests.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура learn"
+              "title": "Структура tests"
             }
           }
         ]
@@ -180,11 +180,24 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "4205ca1357b81ccf",
   "lastOpenFiles": [
+    "learn.md",
+    "tests.md",
+    "06_prompting_guide/07_reflexion.md",
+    "06_prompting_guide/06_react.md",
+    "06_prompting_guide/05_rag_prompt.md",
+    "06_prompting_guide/04_prompt_chaining.md",
+    "06_prompting_guide/03_chain_of_thought.md",
+    "06_prompting_guide/02_few_shot.md",
+    "06_prompting_guide/01_zero_shot.md",
+    "08_hw_peft_tools/adapters_colab/README.md",
+    "08_hw_peft_tools/README.md",
+    "08_hw_peft_tools/prompt_cognitive_designer.md",
     "links.md",
     "promt.md"
   ]
