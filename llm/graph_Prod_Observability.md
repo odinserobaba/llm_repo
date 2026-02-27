@@ -24,6 +24,7 @@
 - [[10_module_cognitive_systems/05_profiling_monitoring/01_traces_profiling|Трейсы, шаги графа, профилирование]]
 - [[12_hw_rag_langfuse/README|HW — RAG + Langfuse]]
 - [[12_hw_rag_langfuse/rag_news_langfuse|RAG + Langfuse: практический пример]]
+- [[11_module_rag_evaluation/README|Модуль 11 — Оценка качества RAG (RAGAS)]]
 
 ---
 

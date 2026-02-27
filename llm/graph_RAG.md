@@ -26,6 +26,13 @@
 
 ---
 
+## Оценка качества RAG
+
+- [[11_module_rag_evaluation/README|Модуль 11 — Оценка качества RAG (RAGAS)]]
+- [[11_module_rag_evaluation/01_ragas_eval_example|Пример: RAGAS + Ollama для трёх метрик]]
+
+---
+
 ## Поиск, индексы, гибридные подходы
 
 - [[04_module_rag/README#*|Типы retrievers, индексы и BM25/Vector/HNSW]]  <!-- якорь можешь донастроить в Obsidian -->

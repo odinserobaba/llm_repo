@@ -1,4 +1,9 @@
 [
   "github-sync",
-  "code-emitter"
+  "code-emitter",
+  "extended-graph",
+  "obsidian-mind-map",
+  "buttons",
+  "obsidian-excalidraw-plugin",
+  "dataview"
 ]

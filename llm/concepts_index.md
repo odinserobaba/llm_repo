@@ -1,4 +1,4 @@
-## Карта понятий и примеров
+ну че## Карта понятий и примеров
 
 Одна заметка, где **понятия сгруппированы по темам**, а под каждым — ссылки на конкретные ноутбуки и хабы‑графы.
 
@@ -15,6 +15,11 @@
   - [[10_module_cognitive_systems/01_rag_cognitive/01_rag_with_reasoning|Cognitive RAG (рассуждения поверх RAG)]]
   - [[12_hw_rag_langfuse/rag_news_langfuse|RAG + Langfuse (новости)]]
   - [[howto_build_rag_service|How‑to: собрать RAG‑сервис от нуля до пайплайна]]
+- **Понятие:** оценка качества RAG (RAG evaluation / RAGAS)  
+  Система метрик (faithfulness, context relevance, answer relevancy), позволяющая сравнивать версии RAG‑пайплайна между собой.
+- **Примеры:**
+  - [[11_module_rag_evaluation/README|Модуль 11 — Оценка качества RAG (RAGAS)]]
+  - [[11_module_rag_evaluation/01_ragas_eval_example|Пример кода RAGAS + Ollama]]
 - **Хабы:**
   - [[graph_RAG|Graph: RAG и поиск]]
   - [[graph_Prompting|Graph: Промптинг и паттерны]]

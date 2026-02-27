@@ -1,0 +1,66 @@
+.rag-metrics {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+
+.rag-metric-card {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #f4f7ff;
+  border-left: 3px solid #4b6fff;
+  font-size: 0.85rem;
+  max-width: 260px;
+}
+
+.rag-metric-card h4 {
+  margin: 0 0 4px;
+  font-size: 0.9rem;
+}
+
+.rag-flow-line {
+  font-family: monospace;
+  margin: 6px 0;
+}
+
+.rag-flow-line .arrow {
+  display: inline-block;
+  animation: pulse-arrow 1.2s infinite;
+}
+
+@keyframes pulse-arrow {
+  0%   { opacity: 0.2; transform: translateX(0); }
+  50%  { opacity: 1;   transform: translateX(4px); }
+  100% { opacity: 0.2; transform: translateX(0); }
+}
+
+/* Делает summary визуально кликабельным и более «интерактивным» */
+details > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.02);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "▶ ";
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+details > summary:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+

@@ -17,6 +17,7 @@
 - [[09_module_ie/README|Модуль 9 — Information Extraction]]
 - [[09_hw_ie_extraction/README|HW — IE Extraction]]
 - [[10_module_cognitive_systems/README|Модуль 10 — Когнитивные системы (RAG, KG, LangGraph, онтологии, профилинг)]]
+- [[11_module_rag_evaluation/README|Модуль 11 — Оценка качества RAG (RAGAS)]]
 - [[12_hw_rag_langfuse/README|HW — RAG + Langfuse мониторинг]]
 
 ---
@@ -50,6 +51,7 @@
 - [[10_module_cognitive_systems/04_ontologies/01_ontology_search|Онтологии и поиск]]
 - [[10_module_cognitive_systems/05_profiling_monitoring/01_traces_profiling|Profiling & Monitoring (traces)]]
 - [[12_hw_rag_langfuse/rag_news_langfuse|RAG + Langfuse (новости)]]
+- [[11_module_rag_evaluation/01_ragas_eval_example|RAG evaluation с RAGAS]]
 
 ---
 
@@ -78,6 +80,7 @@
 Дополнительно:
 
 - [[concepts_index|Карта понятий и примеров]] — группировка «понятие → примеры → хабы»
+- [[glossary|Глоссарий LLM / RAG / агентов]] — алфавитный список терминов с примерами
 
 ---
 
@@ -86,4 +89,5 @@
 - Открой `00_Home` и закрепи её в левом сплите как «Home».
 - Для любой заметки нажимай **More options → Open local graph** — увидишь связи вокруг неё.
 - Хочешь добавить новый модуль/конспект — просто создай файл и добавь сюда ссылку `[[новая_заметка]]`, граф сам обновится.
+- Для mindmap‑вида открой [[mindmap_overview|Mindmap: обзор LLM‑хранилища]] и включи Mindmap View.
 
