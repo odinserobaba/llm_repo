@@ -7,6 +7,7 @@
 ## Модуль прод‑инфраструктуры
 
 - [[05_module_prod/README|Модуль 5 — Прод: надёжность и эксплуатация]]
+- [[13_module_vllm/README|Модуль 13 — vLLM: высокопроизводительный инференс LLM]]
 
 ---
 
@@ -43,6 +44,13 @@
 
 ---
 
+## vLLM (инференс и сервинг)
+
+- [[13_module_vllm/01_vllm_serve_example|vLLM: сервер + OpenAI-клиент и offline inference]]
+- [[13_module_vllm/01_vllm_serve_example_colab|Colab: vLLM offline inference]]
+
+---
+
 ## Связи с другими хабами
 
 - [[graph_Finetuning_PEFT|Graph: Finetuning и PEFT]] — дообученные модели в проде
@@ -51,5 +59,5 @@
 
 ---
 
-**Теги:** #prod #monitoring #langfuse #observability #reliability
+**Теги:** #prod #monitoring #langfuse #observability #reliability #vllm #inference
 

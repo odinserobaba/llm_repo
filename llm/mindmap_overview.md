@@ -52,6 +52,10 @@
 - **RAG + Langfuse** #rag #langfuse  
   - [[12_hw_rag_langfuse/README|HW — RAG + Langfuse]]
 
+- **vLLM (инференс)** #vllm #inference #prod  
+  - [[13_module_vllm/README|Модуль 13 — vLLM]]  
+  - [[13_module_vllm/01_vllm_serve_example|vLLM: сервер и offline inference]]
+
 ---
 
 ## Графы‑хабы #graphs

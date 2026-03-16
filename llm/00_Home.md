@@ -19,6 +19,7 @@
 - [[10_module_cognitive_systems/README|Модуль 10 — Когнитивные системы (RAG, KG, LangGraph, онтологии, профилинг)]]
 - [[11_module_rag_evaluation/README|Модуль 11 — Оценка качества RAG (RAGAS)]]
 - [[12_hw_rag_langfuse/README|HW — RAG + Langfuse мониторинг]]
+- [[13_module_vllm/README|Модуль 13 — vLLM: высокопроизводительный инференс]]
 
 ---
 
@@ -52,6 +53,7 @@
 - [[10_module_cognitive_systems/05_profiling_monitoring/01_traces_profiling|Profiling & Monitoring (traces)]]
 - [[12_hw_rag_langfuse/rag_news_langfuse|RAG + Langfuse (новости)]]
 - [[11_module_rag_evaluation/01_ragas_eval_example|RAG evaluation с RAGAS]]
+- [[13_module_vllm/01_vllm_serve_example|vLLM: сервер и offline inference]]
 
 ---
 

@@ -88,6 +88,11 @@
   - См.: [[05_module_prod/03_testing_evaluation|Тестирование и evaluation]], [[10_module_cognitive_systems/05_profiling_monitoring/01_traces_profiling|Трейсы и профилирование]]
   - Граф: [[graph_Prod_Observability|Прод, мониторинг и Langfuse]]
 
+- **PagedAttention**  
+  Механизм в vLLM для эффективного управления KV-cache по страницам (аналогично виртуальной памяти), снижающий фрагментацию и позволяющий обрабатывать больше последовательностей на одной GPU.
+  - См.: [[13_module_vllm/README|Модуль 13 — vLLM]]
+  - Граф: [[graph_Prod_Observability|Прод и мониторинг]]
+
 - **PEFT (Parameter‑Efficient Fine‑Tuning)**  
   Подходы, позволяющие дообучать большие модели, изменяя только малую часть параметров (адаптеры, LoRA и т.п.).
   - См.: [[07_finetuning_lora/01_intro_peft|Введение в PEFT]], [[08_hw_peft_tools/peft_tools_hw|PEFT HW]]
@@ -134,6 +139,11 @@
   Внешняя функция/сервис, к которому агент может обратиться: БД, HTTP‑API, retriever, код и т.д.
   - См.: [[03_module_agents/01_custom_tools|Custom tools & agents]]
   - Граф: [[graph_Agents_LangGraph|Агенты и LangGraph]]
+
+- **vLLM**  
+  Движок высокопроизводительного инференса LLM: PagedAttention, continuous batching, OpenAI-совместимый API; режимы — сервер и offline inference (класс `LLM`, метод `generate()`).
+  - См.: [[13_module_vllm/README|Модуль 13 — vLLM]], [[13_module_vllm/01_vllm_serve_example|vLLM: сервер и offline inference]]
+  - Граф: [[graph_Prod_Observability|Прод и мониторинг]]
 
 ---
 

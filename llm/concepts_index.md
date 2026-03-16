@@ -112,12 +112,16 @@
 
 - **Понятие:** observability для LLM‑систем  
   Логи, трейсы, метрики, ошибки; понимание, как живёт система в проде.
+- **Понятие:** vLLM (высокопроизводительный инференс)  
+  Движок для сервинга LLM: PagedAttention, continuous batching, OpenAI-совместимый API; режимы — сервер и offline inference.
 - **Примеры:**
   - [[05_module_prod/03_testing_evaluation|Тестирование и evaluation]]
   - [[05_module_prod/04_deployment_miniserver|Мини‑сервер для деплоя]]
   - [[05_module_prod/05_retries_backoff|Retries & backoff]]
   - [[10_module_cognitive_systems/05_profiling_monitoring/01_traces_profiling|Профилирование и трейсы]]
   - [[12_hw_rag_langfuse/rag_news_langfuse|RAG + Langfuse (новости)]]
+  - [[13_module_vllm/README|Модуль 13 — vLLM]]
+  - [[13_module_vllm/01_vllm_serve_example|vLLM: сервер и offline inference]]
   - [[howto_deploy_llm_api|How‑to: завернуть LLM в API и задеплоить]]
   - [[howto_monitor_llm_langfuse|How‑to: подключить мониторинг и Langfuse]]
 - **Хабы:**

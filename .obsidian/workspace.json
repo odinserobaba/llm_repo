@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "llm/09_hw_ie_extraction/РЕЗУЛЬТАТЫ_rel2_НАГЛЯДНО.md",
-                "mode": "source",
+                "file": "llm/05_module_prod/06_agent_security_reliability.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "РЕЗУЛЬТАТЫ_rel2_НАГЛЯДНО"
+              "title": "06_agent_security_reliability"
             }
           }
         ]
@@ -184,41 +184,40 @@
   },
   "active": "d6fc2ef4395f0ae3",
   "lastOpenFiles": [
+    "llm/07_finetuning_lora/README.md",
+    "llm/05_module_prod/06_agent_security_reliability_colab.ipynb",
+    "llm/05_module_prod/06_agent_security_reliability.md",
+    "llm/07_finetuning_lora/model_lifecycle_storyboard.excalidraw",
+    "llm/01_module_fundamentals/README.md",
+    "hw_cicd_ragas/tests/conftest.py",
+    "hw_cicd_ragas/pytest.ini",
+    "hw_cicd_ragas/tests/test_ragas_quality.py",
+    "hw_cicd_ragas/tests/goldens.json",
+    "hw_cicd_ragas/reports",
+    "hw_cicd_ragas/tests",
+    "hw_cicd_ragas/requirements.txt",
+    "hw_cicd_ragas/README.md",
+    "tests/test_ragas_quality.py",
+    "llm/13_module_vllm/README.md",
+    "llm/13_module_vllm/01_vllm_serve_example.md",
+    "llm/promt.md",
+    "llm/09_hw_ie_extraction/РЕЗУЛЬТАТЫ_rel2_НАГЛЯДНО.md",
     "llm/09_hw_ie_extraction/АНАЛИЗ_РЕЗУЛЬТАТОВ.md",
     "llm/09_hw_ie_extraction/README.md",
     "llm/09_hw_ie_extraction/prompt_cognitive_designer.md",
-    "llm/07_finetuning_lora/README.md",
-    "llm/07_finetuning_lora/model_lifecycle_storyboard.excalidraw",
-    "llm/09_module_ie/ie_pipeline_storyboard.excalidraw",
     "llm/mindmap_overview.md",
-    "llm/10_module_cognitive_systems/03_langgraph/langgraph_flow_storyboard.excalidraw",
     "llm/10_module_cognitive_systems/03_langgraph/README.md",
     "llm/10_module_cognitive_systems/03_langgraph/langgraph_flow_storyboard.md",
     "llm/04_module_rag/README.md",
-    "llm/04_module_rag/rag_query_lifecycle_storyboard.excalidraw",
     "llm/04_module_rag/rag_query_lifecycle_storyboard.md",
     "llm/11_module_rag_evaluation/README.md",
     "llm/11_module_rag_evaluation/01_ragas_eval_example.md",
     "llm/02_module_chains/README.md",
     "llm/03_module_agents/README.md",
     "llm/glossary.md",
-    "llm/11_module_rag_evaluation/01_ragas_eval_example_colab.ipynb",
-    "llm/11_module_rag_evaluation",
     "llm/00_Home.md",
     "llm/12_hw_rag_langfuse/README.md",
     "llm/concepts_index.md",
-    "llm/promt.md",
-    "llm/howto_finetune_lora_peft.md",
-    "llm/howto_design_prompts_for_llm.md",
-    "llm/graph_RAG.md",
-    "llm/01_module_fundamentals/README.md",
-    "llm/howto_build_ie_pipeline.md",
-    "llm/howto_monitor_llm_langfuse.md",
-    "llm/howto_build_rag_service.md",
-    "llm/graph_IE.md",
-    "10_module_cognitive_systems/03_langgraph/01_langgraph_state_machines.ipynb",
-    "10_module_cognitive_systems/03_langgraph",
-    "10_module_cognitive_systems",
-    "04_module_rag/05_rag_pipeline.ipynb"
+    "llm/howto_finetune_lora_peft.md"
   ]
 }
